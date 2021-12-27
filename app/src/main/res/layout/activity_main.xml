@@ -11,11 +11,12 @@
 
 
     <ImageView
+        android:id="@+id/iv"
         android:layout_width="200sp"
         android:layout_height="200sp"
-        android:id="@+id/iv"
-        android:src="@drawable/dice_1"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/dice_1" />
 
     <Button
         android:layout_width="wrap_content"
@@ -33,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv"
-        android:hint="sum"
+        android:hint="@string/string_sum"
         android:textAlignment="center"
         android:textSize="50sp"
         android:textColor="#330303"
